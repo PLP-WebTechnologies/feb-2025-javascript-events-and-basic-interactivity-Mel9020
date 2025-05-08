@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>All Organics | Interactive Features</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1> All Organics</h1>
+    <p>HEALTHY EATING, HEALTHY MIND</p>
+  </header>
+
+  <!-- 1. Event Handling  -->
+  <section>
+    <h2>1. Event Handling </h2>
+
+    <button id="clickBtn">Click Me</button>
+
+    <div id="hoverBox">Hover Me</div>
+
+    <p>Type something (Check the console):</p>
+
+    <div id="secretBox">Double Click or Long Press</div>
+  </section>
+
+  <!-- 2. Interactive Elements  -->
+  <section>
+    <h2>2. Interactive Elements </h2>
+
+    <button id="changeBtn">Change Color</button>
+
+    <img id="slider" src="https://via.placeholder.com/300x200?text=Organic+1" alt="Organic Image" />
+
+    <div class="tabs">
+      <button onclick="showTab('tab1')">Benefits</button>
+      <button onclick="showTab('tab2')">How It Works</button>
+      <div id="tab1" class="tab-content"> Organic products boost immunity and energy.</div>
+      <div id="tab2" class="tab-content"> We use all-natural processes to preserve nutrients.</div>
+    </div>
+
+    <button id="animatedBtn">Shop Now</button>
+  </section>
+
+  <!-- 3. Form Validation  -->
+  <section>
+    <h2>3. Form Validation </h2>
+    <form id="myForm">
+      <input type="text" id="name" placeholder="Name (required)" required />
+      <input type="email" id="email" placeholder="Email (required)" required />
+      <input type="password" id="password" placeholder="Password (min 8 chars)" required />
+      <span id="feedback"></span><br />
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 All Organics. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
